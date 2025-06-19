@@ -6,21 +6,21 @@
 //     println!("{}, {}, {}", x, y, z);
 // }
 
-// fn main() {
-//     let is_male = true;
-//     let is_above_18 = false;
+fn main() {
+    let is_male = true;
+    let is_above_18 = false;
     
-//     if is_male {
-//         println!("You are a male");
+    if is_male {
+        println!("You are a male");
 
-//     } else {
-//         println!("You are not a male");
-//     }
+    } else {
+        println!("You are not a male");
+    }
 
-//     if is_male && is_above_18 {
-//         print!("You are a legal male");
-//     }
-// }
+    if is_male && is_above_18 {
+        print!("You are a legal male");
+    }
+}
 
 // fn main() {
 //     let greeting = String::from("hello world");
